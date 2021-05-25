@@ -31,7 +31,7 @@ public class JeuDuPendu {
 		  List<ArrayList<String>> list = Arrays.asList(tabDeMots);
 		  
 		  
-		  
+		  //toutes les decla:
 		  
 		  Random random = new Random();
 		  int indexAleatoire = random.nextInt(9);
@@ -39,24 +39,24 @@ public class JeuDuPendu {
 		  String motATrouver = tabDeMots.get(indexAleatoire);
 		  int longueurDuMotATrouver = motATrouver.lenght(); //on garde la longueur du mot a deviner dans cette variable
 		  
-		  char tableauDemotADeviner[]; //creation d un tableau de la meme taille que le mot a deviner
-		  tableauDemotADeviner = new char [longueurDuMotATrouver];
+		  char tableauCaracteresADeviner[]; //creation d un tableau de la meme taille que le mot a deviner
+		  tableauCaracteresADeviner = new char [longueurDuMotATrouver];
 		  
-		  for (i=0; i<tableauDemotADeviner; i++;) {
+		  for (i=0; i<tableauCaracteresADeviner; i++;) { //remplissagr grace a cette boucle
 			  if (i = 0) { //on met la premiere lettre 
 				  tableauDemotADeviner[i] = motATrouver.charAt(i);
 			  }
 			  else {
-				  tableauDemotADeviner[i] = "_"; /pour le rest $e du mot on met des tirets
+				  tableauCaractereADeviner[i] = "_"; //pour le reste du mot on met des tirets
 				  }
 			  
-			  sysout
+			  System.out.println(tableauCaractereADeviner[i]); // affichage des caracteres
 		  
 		  char verifSaisie []; //tabeau servant a verifier si la lettre et bonne . sa longuer est egale aux nbres d'erreur
 		  verifSaisie = new char [nbreErreursMax];
 		  
 		 
-		  for (int i=1; i<=longMotATrouver; i++) {
+		  for (int i=1; i<=longueurDuMotATrouver; i++) {
 			   
 		  //System.out.println(motATrouver);creer un tabeau de caractere qui soit de la meme la taille que le motATrouver: if ((valeurSaisie == motATrouver.charAt(i))) {
 			  //si ya correspondance on remplace la lettre avec tabDeMots [i] = valeurSaisie	
