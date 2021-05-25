@@ -24,7 +24,7 @@ public class JeuDuPendu {
 		  tabDeMots.add("Pourquoi") ;
 		  tabDeMots.add("Arriver") ;
 		  tabDeMots.add("Portiere") ;
-		  tabDeMots.add("Boursuflure") ;
+		  tabDeMots.add("Boursouflure") ;
 		  tabDeMots.add("Patriarche") ;
 		  tabDeMots.add("Hardrock") ;
 		  tabDeMots.add("Miraculeuse") ;
