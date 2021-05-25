@@ -97,7 +97,5 @@ public class JeuDuPendu {
 		  
 	}
 
-	>>>>>>> branch 'master' of https://github.com/jeremy2606/Jeu_du_pendue.git
-
 	
 }
